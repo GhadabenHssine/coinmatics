@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Coustard&family=DM+Serif+Display&family=Dancing+Script:wght@400;500;600&family=Indie+Flower&family=Kanit:wght@100&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lavishly+Yours&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@1,100&family=Oswald:wght@200&family=Roboto+Condensed:wght@300&family=Smokum&family=Smooch&family=Square+Peg&family=Syne+Mono&family=Tapestry&display=swap');
+
+
+
+.Home{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    margin-right: 6px;
+    color: rgb(4, 24, 85);
+  
+
+  
+}
+
+
+
+.Home:hover{
+    color: rgb(24, 220, 166);
+}
+.navbar{
+min-height:240px;
+z-index:-54896;
+display: block;
+
+position: relative;
+
+}
+
+.Select{
+
+border: none;
+margin-right: 20px;
+
+}
+.Fra:hover{
+    color: rgb(24, 220, 166);
+}
+.Fra{
+    cursor: pointer;
+    position: relative;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    border: none;
+}
+
+
+
+
+.Fra::before{
+
+
+    content: "";
+    flex-shrink: 0;
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+    background: url("../img/fr.svg") center center no-repeat;
+}
+
+
+
+.Home:hover{
+    color: rgb(24, 220, 166);
+  
+}
+
+.icon{
+  
+    margin-bottom:3px;
+    font-size: 12px;
+    margin-left: 1px;
+
+}
+.btn{
+    font-family: "Montserrat Alternates", sans-serif;
+    border-radius: 8px;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+    border: 1px solid rgb(24, 220, 166);
+    cursor: pointer;
+    outline: none;
+    box-sizing: border-box;
+    user-select: none;
+    padding: 10px 32px;
+    background-color: transparent;
+    color: rgb(24, 220, 166);
+    transition: all 0.3s ease 0s;
+  
+    margin-left: 25px;
+    
+    text-decoration:none;
+}
+.btn:hover{
+    color: rgb(24, 220, 166);
+
+}
+.btn1:hover{
+    color: rgb(255, 255, 255
+    );
+
+}
+.btn1{
+
+
+    font-family: "Montserrat Alternates", sans-serif;
+    border-radius: 8px;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    box-sizing: border-box;
+    user-select: none;
+    padding: 10px 32px;
+    background-color: rgb(24, 220, 166);
+    border: 1px solid transparent;
+    color: rgb(255, 255, 255);
+    transition: background-color 0.3s ease 0s;
+    box-shadow: rgb(139 237 210 / 30%) 0px 2px 12px;
+    text-decoration:none;
+    margin-left: 30px;
+}
+
+.img1{
+width:70px;
+height: 56px;
+flex: 0 0 56px;
+transition: background-image 0.25s ease 0s;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+background-image: url("../img/investors.svg");
+cursor: pointer;
+
+}
+
+.overlay-image .img1:hover {
+    color: rgb(24, 220, 166);
+   }
+.img1:hover{
+    color: rgb(24, 220, 166);
+}
+.img4{
+
+    width: auto;
+    height: 56px;
+    flex: 0 0 56px;
+    transition: background-image 0.25s ease 0s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("../img/copytrading_traders.svg");
+}
+
+
+.img5{
+    width: auto;
+    height: 56px;
+    flex: 0 0 56px;
+    transition: background-image 0.25s ease 0s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("../img/terminal.svg");
+}
+
+
+.cl41{
+
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    padding: 28px 32px;
+    display: flex;
+    margin-top: 50px;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.par{
+
+    max-width: 277px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.titreI{
+
+    color: rgb(54, 65, 92);
+    transition: color 0.25s ease 0s;
+    margin-bottom: 4px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    
+
+}
+.titreI:hover{
+
+    color: rgb(24, 220, 166);
+
+}
+div {
+    display: block;
+}
+
+.paragraphe{
+
+    color: rgb(117, 128, 159);
+    transition: color 0.25s ease 0s;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 14px;
+
+}
+.paragraphe:hover{
+    color: rgb(24, 220, 166);
+}
+.img2{
+
+    width: auto;
+    height: 56px;
+    flex: 0 0 56px;
+    transition: background-image 0.25s ease 0s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("../img/discover_strategies.svg");
+}
+.img3{
+    width: auto;
+    height: 56px;
+    flex: 0 0 56px;
+    transition: background-image 0.25s ease 0s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("../img/signals.svg");
+}
+
+.img4{
+
+    width: auto;
+    height: 56px;
+    flex: 0 0 56px;
+    transition: background-image 0.25s ease 0s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("../img/trading_bot.svg");
+}
+.select{
+    border: none;
+    margin-right: 10px;
+}
+.btn2{
+
+    background-color: white;
+    border: none;
+     color: rgb(54, 65, 92);
+}
+.sel{
+border: none;
+width: 100px;
+
+}
+select{
+    border: none;
+}
+
+.menu{
+
+position: absolute;
+top: calc(100% + 9px);
+width: 20px !important;;
+background: rgb(255, 255, 255);
+border-radius: 10px;
+z-index: 5;
+border: none;
+box-shadow: rgb(18 30 84 / 55%) 0px 0px 12px;
+max-height: 300px;
+overflow-y: auto;
+
+transform: translateX(-50%);
+}
+.lang{
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+    font-family: "Montserrat Alternates", sans-serif;
+    color: rgb(14, 31, 80);
+    padding: 3px 5px;
+    cursor: pointer;
+ 
+    transition: color 0.25s ease 0s;
+
+}
+.about{
+    width: auto;
+    height: 56px;
+    flex: 0 0 56px;
+    transition: background-image 0.25s ease 0s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("../img/about.svg");
+}
+.contac{
+    width: auto;
+    height: 56px;
+    flex: 0 0 56px;
+    transition: background-image 0.25s ease 0s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("../img/contacts.svg");
+}
+
+.fag{
+    width: auto;
+    height: 56px;
+    flex: 0 0 56px;
+    transition: background-image 0.25s ease 0s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("../img/faq.svg");
+}
+.asq{
+    width: auto;
+    height: 56px;
+    flex: 0 0 56px;
+    transition: background-image 0.25s ease 0s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("../img/ask_question.svg");
+}
+.lang{
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+.frlang{
+    font-family: "Montserrat Alternates", sans-serif;
+}
